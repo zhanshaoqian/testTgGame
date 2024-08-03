@@ -59,7 +59,7 @@ bot.command('start', async (ctx) => {
     await ctx.replyWithGame('my_game', { reply_markup: keyboard });
 });
 
-bot.on('callback_query:game_short_name', async (ctx) => {
+bot.on('callback_query:lastShopShark', async (ctx) => {
     await ctx.answerCallbackQuery({ url: 'https://poki.com/zh/g/tiger-tank#fullscreen' });
 });
 
